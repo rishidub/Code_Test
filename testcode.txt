@@ -1,0 +1,70 @@
+# def get(s1,s2):
+
+# 	s1=''.join(set(s1))
+# 	s2=''.join(set(s2))
+# 	result=s1+s2
+# 	print(result)
+
+
+# if __name__ == '__main__':
+# 	input_text1=input('enter string 1: ')
+# 	input_text2=input('enter string 2: ')
+# 	get(input_text1,input_text2)
+
+
+#+=================================================================
+
+
+# def rose(q):
+# 	if q in range(4,11):
+# 		print("True")
+# 	else:
+# 		print("False")
+
+
+
+# if __name__ == '__main__':
+	
+# 	f=int(input("enter input: "))
+# 	rose(f)
+
+#=============================================================
+
+# def test(l1):
+# 	if len(l1)>0:
+# 		print("not empty")
+# 	else:
+# 		print("empty")
+
+# if __name__ == '__main__':
+
+# #	t1=[] #to check empty condition
+# 	t1=[3,45,67,89] #to check not empty condition
+
+# 	test(t1)
+
+#===============================================================
+
+# def lovely(s1,s2):
+# 	a=s1 + '.txt'
+# 	f = open(a,"w")
+# 	f.write('Hello World')
+
+
+# if __name__ == '__main__':
+# 	a=input('enter file name to create :  ')
+# 	b=input('enter string/text to save in file :  ')
+# 	lovely(a,b) 
+
+#==============================================================
+
+def takelist(a1):
+
+	if len(a1)>0:
+		print([ x*2 for x in a1])
+	else:
+		print(a1)
+
+if __name__ == '__main__':
+	a1=[1,2,6,5] # or a1=[]
+	takelist(a1)
